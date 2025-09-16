@@ -1,0 +1,11 @@
+Data Cleaning steps:
+
+1. Removed duplicates (rows with identical Restaurant ID)
+2. Handled missing values:
+   - Rating: replaced nulls with 'No Rating' or median
+   - CostForTwo: removed currency symbol and converted to numeric
+3. Currency conversion:
+   - Converted all currencies to INR using conversion table
+4. Column renaming:
+   - e.g. "Average Cost for two" -> "CostForTwoINR"
+5. Saved cleaned file as Dataset/cleaned_zomato.csv
