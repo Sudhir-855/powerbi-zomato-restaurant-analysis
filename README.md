@@ -6,11 +6,11 @@ This project is a comprehensive analysis of Zomato restaurant data using Microso
 # Dataset
 - Original dataset: Dataset/original_zomato.csv
 - Cleaned dataset: Dataset/cleaned_zomato.csv (if available)
-- Source: Kaggle / Zomato (add original link here)
+- Source: Kaggle / Zomato
 
 # Data Cleaning
 - Removed duplicates
-- Handled missing values for [list columns]
+- Handled missing values
 - Converted currency columns to INR
 - Standardized column names
 
@@ -20,7 +20,6 @@ This project is a comprehensive analysis of Zomato restaurant data using Microso
 - Filters: City, Cuisine type
 
 # How to Open
-Open `PowerBI_Files/Zomato_Dashboard.pbix` in Power BI Desktop (or download link if stored externally).
-
+Open `PowerBI_Files/Zomato_Dashboard.pbix` in Power BI Desktop
 # Author
 Sudhir Sharma
